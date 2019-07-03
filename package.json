@@ -1,0 +1,40 @@
+{
+  "name": "@johanblumenberg/eventemitter-async",
+  "version": "1.0.0",
+  "description": "Promise based async drop-in replacement for EventEmitter",
+  "main": "index.js",
+  "scripts": {
+    "ut": "mocha -r ts-node/register test/**/*.spec.ts",
+    "lint": "tslint --project .",
+    "test": "yarn run lint && yarn run ut",
+    "build": "tsc",
+    "prepack": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanblumenberg/eventemitter-async.git"
+  },
+  "keywords": [
+    "events",
+    "promise",
+    "async",
+    "event-emitter"
+  ],
+  "author": "johan.blumenberg@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johanblumenberg/eventemitter-async/issues"
+  },
+  "homepage": "https://github.com/johanblumenberg/eventemitter-async#readme",
+  "devDependencies": {
+    "@johanblumenberg/mocha": "^1.0.4",
+    "@johanblumenberg/ts-mockito": "^1.0.9",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.0.12",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-misc-rules": "^3.5.1",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "noFallthroughCasesInSwitch": true,
+        "noStrictGenericChecks": false,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "importHelpers": false,
+        "resolveJsonModule": true,
+        "declaration": true,
+
+        "outDir": "dist",
+        "allowJs": false,
+        "checkJs": false,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "downlevelIteration": true,
+        "target": "es3",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": [
+            "es2016",
+            "es2017"
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
