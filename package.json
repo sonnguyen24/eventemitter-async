@@ -1,6 +1,6 @@
 {
   "name": "@johanblumenberg/eventemitter-async",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Promise based async drop-in replacement for EventEmitter",
   "main": "index.js",
   "scripts": {
@@ -36,5 +36,9 @@
     "tslint-misc-rules": "^3.5.1",
     "typescript": "^3.5.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "./dist/",
+    "./index.js"
+  ]
 }
