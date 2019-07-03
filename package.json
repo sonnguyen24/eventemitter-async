@@ -1,6 +1,6 @@
 {
   "name": "@johanblumenberg/eventemitter-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promise based async drop-in replacement for EventEmitter",
   "main": "index.js",
   "scripts": {
