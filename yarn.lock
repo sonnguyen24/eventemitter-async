@@ -36,12 +36,12 @@
     supports-color "5.4.0"
     wtfnode "^0.8.0"
 
-"@johanblumenberg/ts-mockito@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@johanblumenberg/ts-mockito/-/ts-mockito-1.0.9.tgz#b3b025426e7fd7e909090bdaaa1b990b9b3e7916"
-  integrity sha512-e7DRzPZdZMeeZHyCC6OQfSG8abXEHIEgoaoHdoJ/Rwu4tKM7lyYOmnB+JLsJ3fp7Dr6YhKKP/f1m1zWCdnGx4g==
+"@sym20/ts-mockito@^1.0.9":
+  version "1.0.29"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/@sym20/ts-mockito/-/@sym20/ts-mockito-1.0.29.tgz#5115721c5a7f96afa1223ed15edd5fb83f7ce1a7"
+  integrity sha1-URVyHFp/lq+hIj7RXt1fuD984ac=
   dependencies:
-    lodash "^4.17.5"
+    lodash "^4.17.20"
 
 "@types/mocha@^5.2.7":
   version "5.2.7"
@@ -243,10 +243,10 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-lodash@^4.17.5:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+lodash@^4.17.20:
+  version "4.17.21"
+  resolved "https://repo.symphony.com/artifactory/api/npm/npm-virtual-dev/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
 
 make-error@^1.1.1:
   version "1.3.5"

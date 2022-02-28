@@ -30,8 +30,10 @@ export default class EventEmitterAsync extends EventEmitter {
     public emitAsync(event: string, ...args: any[]): Promise<boolean> {
         let listeners = this.rawListeners(event);
         let result = listeners.length > 0;
-        return Promise.resolve()
-            .then(() => this._emit(listeners, event, args))
-            .then(() => result);
+        try {
+            return this._emit(listeners, event, args).then(function() { return result; });
+        } catch (err) {
+            return Promise.reject(err);
+        }
     }
 }

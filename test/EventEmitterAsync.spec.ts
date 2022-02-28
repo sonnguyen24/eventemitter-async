@@ -1,4 +1,4 @@
-import { fnmock, instance, verify, when, defer, nextTick, anything } from '@johanblumenberg/ts-mockito';
+import { fnmock, instance, verify, when, defer, nextTick, anything } from '@sym20/ts-mockito';
 import { EventEmitter } from "events";
 import * as assert from "assert";
 import EventEmitterAsync from '../src/EventEmitterAsync';
