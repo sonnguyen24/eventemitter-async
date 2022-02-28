@@ -1,7 +1,7 @@
 {
-  "name": "@johanblumenberg/eventemitter-async",
+  "name": "@sym20/eventemitter-async",
   "version": "1.0.4",
-  "description": "Promise based async drop-in replacement for EventEmitter",
+  "description": "Promise based async drop-in replacement for EventEmitter. forked from https://github.com/johanblumenberg/eventemitter-async",
   "main": "index.js",
   "scripts": {
     "ut": "mocha -r ts-node/register test/**/*.spec.ts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johanblumenberg/eventemitter-async.git"
+    "url": "git+https://github.com/SymphonyOSF/eventemitter-async.git"
   },
   "keywords": [
     "events",
@@ -20,7 +20,7 @@
     "async",
     "event-emitter"
   ],
-  "author": "johan.blumenberg@gmail.com",
+  "author": "Symphony",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johanblumenberg/eventemitter-async/issues"
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/johanblumenberg/eventemitter-async#readme",
   "devDependencies": {
     "@johanblumenberg/mocha": "^1.0.4",
-    "@johanblumenberg/ts-mockito": "^1.0.9",
+    "@sym20/ts-mockito": "^1.0.9",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.0.12",
     "ts-node": "^8.3.0",

@@ -1,4 +1,4 @@
-# @johanblumenberg/eventemitter-async
+# @sym20/eventemitter-async
 
 Promise based async drop-in replacement for `EventEmitter`
 
